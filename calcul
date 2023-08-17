@@ -1,0 +1,26 @@
+def soma(a, b):
+    rest = a + b
+    print(rest)
+
+def subtração(a,b):
+    rest = a - b
+    print(rest)
+
+def multi(a,b):
+    rest = a * b
+    print(rest)
+
+def divi(a,b):
+    rest = a / b
+    print(rest)
+sn = 'S'
+while True:
+    if sn == 'S':
+        print('''
+        [ 1 ] somar
+        [ 2 ] subtrair
+        [ 3 ] multiplicação
+        [ 4 ] divisão
+
+        ''')
+        sn = int(input('Fale a opção: '))
